@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <h1>Benvenuto sulla mia Home</h1>
+        <h1>{{$name}}</h1>
         <ul>
             <li>
                 <a href="{{route('download')}}">Download</a>
